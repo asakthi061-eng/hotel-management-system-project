@@ -1,0 +1,63 @@
+
+@media (max-width: 900px) {
+  .details-image {
+    height: 300px;
+  }
+
+  .details-content {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hotel-details-page {
+    padding: 20px;
+  }
+
+  .details-image {
+    height: 230px;
+  }
+
+  .details-content {
+    padding: 18px;
+  }
+
+  .details-content h1 {
+    font-size: 23px;
+  }
+
+  .details-price {
+    font-size: 21px;
+  }
+
+  .hotel-actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .hotel-list-page {
+    padding: 15px;
+  }
+
+  .filter-sidebar {
+    padding: 17px;
+  }
+
+  .hotel-card-content {
+    padding: 14px;
+  }
+
+  .details-image {
+    height: 190px;
+  }
+
+  .pagination {
+    gap: 9px;
+  }
+
+  .pagination button {
+    padding: 9px 11px;
+    font-size: 12px;
+  }
+}

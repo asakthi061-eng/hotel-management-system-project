@@ -1,0 +1,57 @@
+
+.header {
+  width: 100%;
+  height: 75px;
+  background: #142b4a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.header-logo h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.header-logo h2 span {
+  color: #d5a94f;
+}
+
+.header-admin {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.admin-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #d5a94f;
+  color: #142b4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.admin-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 65px;
+    padding: 0 18px;
+  }
+
+  .header-logo h2 {
+    font-size: 21px;
+  }
+}
